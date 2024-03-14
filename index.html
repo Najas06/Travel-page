@@ -1,66 +1,156 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title></title>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@3.0.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="style.css">
+    <title>tripzza.co</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Bungee+Spice&family=Mountains+of+Christmas&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;1,100;1,200;1,300;1,400&display=swap" rel="stylesheet">
-</head>
-<body>
-    <header>
-        <div class="container">
-            <div>
-                <h1>Summer Vacation</h1>
-            </div>
-            <nav>
-                <a href="#" class="active">Home</a>
-                <a href="#">Booking</a>
-                <a href="#">Contact</a>
-                <a href="#">About</a>
-            </nav>
-            <div></div>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <nav>
+      <div class="nav__logo"><a href="#">Travel.co</a></div>
+      <ul class="nav__links">
+        <li class="link">Home</li>
+        <li class="link"><a href="#blog">Blog</a></li>
+        <li class="link"><a href="#offer">Offers</a></li>
+        <li class="link"><a href="#service">Services</a></li>
+        <li class="link"><a href="#contact">Contacts</a></li>
+      </ul>
+    </nav>
+    <header class="main">
+      <div class="section__container">
+        <div class="header__content">
+          <h1>Travel</h1>
+          <p>
+            Embark on a journey of a lifetime and explore the world's most
+            breathtaking destinations with our expert travel advice. From exotic
+            beaches to cultural wonders, we've got you covered with our
+            comprehensive travel guides and insider tips.
+          </p>
+          <button ><a href="#service">Read more</a></button>
         </div>
-        <div class="main">
-            <div class="main-text">
-                <h1>Summer Vacation</h1>
-                <h3>Enjoy With Your Family</h3>
-                <input type="email" required placeholder="Email-Address"><button type="submit">Submit</button>
-            </div>
-        </div>
+      </div>
     </header>
-    <section class="section">
-        <div class="container1">
-            <div class="sec">
-                <h1>Beach Explore</h1>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio veritatis illum rem reiciendis assumenda expedita consequatur aliquid, pariatur, error ipsum ducimus illo nulla animi odit repudiandae beatae quibusdam mollitia neque.
-                Illum, asperiores. Aspernatur quia nihil suscipit autem sapiente soluta necessitatibus voluptatibus praesentium omnis at ullam doloremque animi eligendi error, amet laborum commodi iste alias dolorum pariatur? Ea nam nisi natus.</p>
+
+    <section class="journey__container" id="service">
+      <div class="section__container">
+        <h2 class="section__title">Start Your Journey</h2>
+        <p class="section__subtitle">The most searched countries in March</p>
+        <div class="journey__grid">
+          <div class="country__card">
+            <img src="https://www.visitgreece.gr/files/merakos_05_santorini-oia_750x440.jpg" alt="country" />
+            <div class="country__name">
+              <i class="ri-map-pin-2-fill"></i>
+              <span>Santorini, Greece</span>
             </div>
-            <div class="img">
-                <img src="leo-rivas-R_BLOGXpsOg-unsplash.jpg" alt="" style="width: 100%;">
+          </div>
+          <div class="country__card">
+            <img src="https://encrypted-tbn0.gstatic.com/licensed-image?q=tbn:ANd9GcTdJSW04O654eEsc_08kPScRJOo8COO0MrqEy53N6WOaY_jmQPF1i0W_fcbzVUGdaoO4lIxEu0Z4piXp5p7qkoVOIqnsoq2q6hfpShwz_w" alt="country" />
+            <div class="country__name">
+              <i class="ri-map-pin-2-fill"></i>
+              <span>Vernazza, Italy</span>
             </div>
+          </div>
+          <div class="country__card">
+            <img src="https://encrypted-tbn3.gstatic.com/licensed-image?q=tbn:ANd9GcSH1aGssxnKb2MlaRnIydhbkf_zpXoTYgnSFRrNUOzokzoACPP8zZU8pV18IYcaS9ZMDYJHg2UNHD-dfNQMOYXxa7c9OFSesDD6nPupMg" alt="country" />
+            <div class="country__name">
+              <i class="ri-map-pin-2-fill"></i>
+              <span>San Francisco</span>
+            </div>
+          </div>
+          <div class="country__card">
+            <img src="https://encrypted-tbn1.gstatic.com/licensed-image?q=tbn:ANd9GcQxPDFKUj19iMKN5sb4rJTJb1r4Vn7X-bp_UeT_aW1Iu3i0rNhL1irTMBVe1qLTbLhxw5NN__9dRQzEvDAH6RLJ2AdwOuIWL-0Gl46FVq8" alt="country" />
+            <div class="country__name">
+              <i class="ri-map-pin-2-fill"></i>
+              <span>navagio, Greece</span>
+            </div>
+          </div>
+          <div class="country__card">
+            <img src="https://encrypted-tbn2.gstatic.com/licensed-image?q=tbn:ANd9GcQncYatIU-i80vorOoKZdLEoO1fcLJX_pCwSvgVVMzg7rSuMCxLXIKLVztoWRLebw9wbtUpotMHXTbKXB3es2G-WVNrQqxGp0k95MkwGw" alt="country" />
+            <div class="country__name">
+              <i class="ri-map-pin-2-fill"></i>
+              <span>Ao Nang, Thailand</span>
+            </div>
+          </div>
+          <div class="country__card">
+            <img src="https://encrypted-tbn1.gstatic.com/licensed-image?q=tbn:ANd9GcRlH7PsgfRGMviTvB4woM3vszBG-x5MXy1VpI7-jAKHLBBzo9mhALwGe6EDV-KsL6evFh6H3wOpBtUM-SBwt_QTy5-HKiyjDdOTU03Qig" alt="country" />
+            <div class="country__name">
+              <i class="ri-map-pin-2-fill"></i>
+              <span>Phi Phi Island, Thailand</span>
+            </div>
+          </div>
         </div>
-    </section>
-    <section class="cards">
-        <div class="container2">
-            <div class="card"><img src="card1.jpg" alt="">
-                <h4>Lorem</h4>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit quod dignissimos tempore est sunt maiores magnam, nisi, odit ipsa sint facilis voluptatibus modi, quia numquam aperiam delectus. Quos, dolor sunt?</p></div>
-            <div class="card"><img src="card2.jpg" alt="">
-                <h4>Lorem</h4>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit quod dignissimos tempore est sunt maiores magnam, nisi, odit ipsa sint facilis voluptatibus modi, quia numquam aperiam delectus. Quos, dolor sunt?</p>
-            </div>
-            <div class="card"><img src="card3.jpg" alt="">
-                <h4>Lorem</h4>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit quod dignissimos tempore est sunt maiores magnam, nisi, odit ipsa sint facilis voluptatibus modi, quia numquam aperiam delectus. Quos, dolor sunt?</p>
-            </div>
-        </div>
-    </section>
-    <section class="footer">
-        <img src="footer.jpg" alt="">
+      </div>
     </section>
 
-</body>
+    <section class="banner__container" id="offer">
+      <div class="section__container">
+        <div class="banner__content">
+          <h2>Discount 10-30% Off</h2>
+          <p>
+            Travel the world on a budget with our unbeatable discounted travel
+            deals. Whether you're looking for a last-minute escape or planning
+            ahead, we've got you covered with incredible discounts on flights,
+            hotels, and packages. Don't wait, book now and experience the
+            adventure of a lifetime without breaking the bank.
+          </p>
+          <button>See Tours</button>
+        </div>
+      </div>
+    </section>
+
+    <section class="display__container" id="blog">
+      <div class="section__container">
+        <h2 class="section__title">Why Choose Us</h2>
+        <p class="section__subtitle">
+          The gladdest moment in human life, is a departure into unknown lands.
+        </p>
+        <div class="display__grid">
+          <div class="display__card grid-1">
+            <img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAoHCBUSFRgVEhUYGRgYGBgaGBgcGhgYHBgYGBwcGhgaGBocIS4lHB4rIRocJzgmKy8xNTU1HCQ7QDs0Py40NTEBDAwMEA8QHhISHjQrJSs0NDQ2NDQ0NDY2NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NP/AABEIALcBEwMBIgACEQEDEQH/xAAbAAABBQEBAAAAAAAAAAAAAAAAAQIDBAUGB//EADkQAAEDAgQDBgUCBgIDAQAAAAEAAhEDIQQSMUEFUWEGEyJxgZEyQqHB8FKxFBUjYtHhgvEHcqJT/8QAGQEAAwEBAQAAAAAAAAAAAAAAAAECAwQF/8QAKhEAAgICAgEEAQMFAQAAAAAAAAECEQMSITETBCJBUWEygZEUcaGxwSP/2gAMAwEAAhEDEQA/APX0QlTlRiMSpyEBQ1CchAUNQnIQFDUJySEBQ1EJYSwmKhkIhOhEJWGo2EJUQnYmhsJMqchMmhhCQhOhBCYmhiSE+EkJ2KhkJIT4RCLFRHCQtUuVJlTsNSLKjKpYTSQiw1GZEuRKXpjnlPkOEPDQEx1QBRuTCFSj9icvoc+soXVilISZFaSRDcmMzuQn92hVwTrI20IQuI76BCEJBQIhCVAUJCEqEBQiEqEDoREJUIChIRCVCBUNhIU+EiYmhiSFImoJaGwiEqRMVBCSEqEyRqQpxTSgTYiQpSmlUJsQpCgpITIsaU0p+UpQwbp2FNkBSEKdwHJISqUh6lfKU6E4lMcVQVQkISeqExGyiEqFxnbQkIhOQgKEhCVCAoRCVCAoRCVCAoRCVCAoahKhACISoQFDYSEJ6RBLQyEQnJITJaGwkhPhJCYmhpCQhV+JYnuqbnyLAxPlP2XmuJ7RYmhULzVcdyx12gT8JbpPlpzKzeWKlr8mkcEpRbR6jCQtWN2Y7QsxzHOa3K9kZmzPxTBB3Fj7LbIWtmEoU6ZHlSQpCE2E7J1GFNJUhCYQqQNMjcoyFMQmkKkyGiIqNwUxCa4K0xOJDA5ITsqE7FqbaEqVcR6FCJUIQMEIQgAQhCABIlQgBEJUIARCVIgAQhCBCISpEwETXugEna6dKr40ONN4YASWkAESCSIghDElboj4ZW7yk10zmk/U29NPRWyF59U/jsBYZnM5t8bOsyPCfMBS4bt+W2rUwTzacvuDKhTS7NXhbbceUdH2jYXUoHNp9Q5tvI6eq8X7UVy8h5dOd7/D+lrCGsZ6AE9SZXo3EO19KvTc3u3QQR8YBBsQQQD0K81488PzGHyCXXIOZzokk7G2kbm6xcGsu/wzaDXjcHw0dn/4iqS+q2fkaf8A6v8AuF6cQvEuxXHzg2vcGNL3kNzEGzBeBBG5XS1e3+IJyU6bC46ANc5x8hNz6LpulZzvG5SpHpCQhcHhqvGawJDWUwdC/KyPJoBcD5hRVOxmOqma2NbJ1jO/2Byo2fwheKK/VJfsdtiMfRZapVY08i9oPtMrLxvHmwBQcwyRLjLg1twS1gguNtJH2WPg/wDx9RaZq1qlQ2sIpt+kn6q27sThhPdmpTkQQH5gZ1nOCfYqZ+Rr28FQWGL91s2MJxBlRrche63xFjgTFiTIH0VwhZuE4SymAMrQG2aA1hbHMS2WnyK0CVrj2r3GWXS/aIUxyHOTXFbJGPAiEyUJi4N1CELkOoEIQgAQhCABCEIAEIQgAQkRKAFQmolArFSJJRKYrFSFNlIXIoVjkSoy9GdOhbD5WZxHguHxDSKlNpJmHgAOBO4cL/ZX8yTMhxsFNp2jzXjXZGox2XDNLmmLgEXNoudLC8wuN4jgi12Rxux5a4bEgx+4ieq9Y7T8SdhnF0HI7KQ68NqACWOjQObEH9S8xqEVKjoiHFx10Bub9Psskq4Ohyb5NvsV2UbXcTWnIwNcWtMZnHNDSdYidLr1DC4OnSEUmMYP7Whs+ca+qy+ylMNwzHARn8XUjQT6CfVa5ct1E5pTbZImkphcmlypIix5KaSml6YXppC2HEpjimuemOerUROSHEqNxTHPUbqivUhyRJKFB3iRGrDZHThCgD0uZcmp12TIUWZLm6pUOyVCizpMyKCyVCilIXIoLJkKAvTS9PUVlmUkqsXphejUWxaLhzTXPHNVTUTS9UokuRaDxuQnZxzVFz1GaqehOxoGoOYUbyNZVE1VBUxUaJqAnIuueojVWc7ElQ1MUVokZuRrjExupmYgEgRqYXMvqq5wl7nVGgGw8R8hdEkqscZO0ip2so14fFRpY8ZSxzWhsfN4ibRzOkTIXn5w1Nj/AI2SNgS9h6SP+l6N2rp5+oaJAMZQettuZO647K0mBHUhro6AE29dPPVYY0mdUmzt+xxd/B0g/wCKH66kZ3QfIi62yVyvCMVkptYQTltMzY3urpxp2H7/AGW+pySlTNslNJWN/HHcH3KQ4/qnoLZGuXJpcsR+McdHW9VCcU8fMfcqlElzRuuKjc5Yv80eN59imHiz/wACtQYnOJsOKieVm/zcb67zZVqvEyTZ0egsmoyJcomtmQslvE+d/RCdMnZHbh6UPVXvEoqLjO2y1mRnVYVISmt1UjssZ0d4qpqI7xA7LPepDUVY1E01UhWWi9MNRVjUTDUTFZaNRMNRVi/mUw1eSYrLLqqYaqruqc1E6qmDLTqiY6oqrqvJQuqpkll9XqoXVYVV9VQvrKkSyepXVZ9VRPqqs+t1VIgtVK0Lb7KtJL6jtgGjzcZP7D3XLd6Zutbg+KeGVQ1xsGuaNpveDbYeyxzy1xtm/p47ZEh/aHE03TIDozCDe8iLHpI8wVzLcW0OENaNToBos3+bvqvyVAZLokXBJO4Nx5gnyS49zKVQhz4aSSxxtmaCQCAuHeXa6PU8aT1fZ1QxWamHN1DgPQj/AEE1mJcTrsVlcN4jTe0sYZJEzEAR1Mc9gp6uIayNz0XZDL7V9nn58VTL1TFOAJn3j68gq1TixGhnT81VGpjhMOadR5TqqFR7Z8INvvuFpGbb5MXFfBtfzPnYnyP1CceIkC7gVzz6m4dJvadJ81FnN2EzuCLLZSdGTijpW49h1I/OSjfjGjmubZTebRPSRy1THtcRcwY0lN5KF47R0LsWzcuSOxTNz+eq5k13t3nzv7c09nEH/M0fQK919k+N/R0Hfs/t+qFhfxjuR92oU+T8j8f4PXhV6pRW6rIFTknCr1XO0bqRrd8k7xZrayd36mh2XTXCT+I5Kiayb36KCy/3nVJ3qo9+mmt1Sodl51YJverPdiGhMdiwE6A0XVVG6vG6onFqN2IRQNmg6qoHVeqpnEeqR1SN7lHQuy2XlQueVXdXAChqYiNb/nJFhqWXvUD6u2/5oq5xHL8nZMc7zT2rsmh76v1UJeEx7hz6bXTC8W9Oqe6FQ/MXHWFrcEeAagP6CfYj/Kww8dBaSd/yVocDMms9xhjaR2Frt+sArD1MlLG1+Dp9LGsqf5OYwQBrvJIAaXmfWPutvFYFuJovZ87AX0zvIAzjycIP/ELF4JTzvcYkTP1ldBg8W2nUa5xAAIDv/V0tJnyJK5bfj1XfZ2ZZpZ0zmuCPh/ofstl+Ge4F0Bs3LjAJ5BoNz5mFjMqjC4pxcJax7pA/SZ06wVzWP4i+q5znukuMuJ3/ANdF0emjGStmXrIvfg7B1YCWkFzjqDs46AZdZVQ1xEObE3Gs+Sh7O8JBaytUccrpgNdlDQLeJwuTbQeqs8Wpto1C2xBGYD5spN4k/qELtlhcYqXwzzI+ohPI8a7X8ELnkmw15QY90PxBDog21BAuqrqhnxCxBgg6H3Ur2PDJmQb2gj1hZ3XZrQ92KvaxPumPrB0HNBvaB9FAaxOhEjoBATWMmC4nnZuvrKHS5GuSV7w2IaZO8H8AUJaQbAz5gW6pz6rnTlB/x6pjg5l3ESYsD9VG1FUhHVotI9/9JVWz9EKuBHqwqlBqws01yfJM75XRkaRxMaIdiSVmNfdTNB/ChpLsabLgr9VIKpVHvQNvVAfO5/OqhspIvGr+bBQV8QACXGAN9FWaC4wD5yqnaCk4ubTDywNEm3x5xm0nQeEehWcpqPBrjxuX9i/Sr958A2mdvzX2WbieIVs+SmwPMhtg+ZJiMxspKL+6YGPcJjUWEWJjmB73Uj8a+my7Zm0hwkHcgjn1FrryV63L5nGVVdI6/DFLoXG4irSyiMzzEMa0mTeYsFZo0axy94GMLhJY4kv2+Vsj1lcvgOKNp1nuql5zsc1snMZcWxcxy1j6G+vX7TUKj2d5nkGwkgAwBcCM29oAubLtlOS4Q444S5ou4zvWGQyWaA94yTtoSEtDD1XDM5jgDeTpy5WU7ON0oJYDmnUuHrIEkRZUXYpkl7qniMeLPERpaI9YSWWbRp/Tw+iSlTfUdFNjz/dldFusKZ2DyO/qyzTxlpyC4mTtab9FSFapMtxEDUGSPOSGhSOqvMZqj3Tu5wdPkMoEeqcssjNemjZpfymSMrxlvDshvFrSVR4hh+5Iu9wvfKI9LyT6K1h8I+mZo5jaHNaWxJ0BzAA/ZK7AYl7j3jZY5pa4AtkbggE6jnZZLNK+XwaP00PoyGNzRD2tGsuzR7tad0x7b5GvaTsYeWnexiTboU1nAMUHOGV7W5iBFSmZG0htx9pWm3gRptaKpdVMghpqMYwR5vGmlls8kVzdmXgT+KMNr2G4cCLeJp+J06CRpK1MTUFLA1nCzqz2s/4gAwOQ8R9luNbXZHdYGkBa5qMmNyIaST6rB7dPe9mHYW5XPc/wdZDRuea555tmkv8AZrhwKMrvozOD0nml4Q7xE3An+231Vjui13iBE7GZEXJIOnry6rrMI/D0mMpj5WgZRTe9ztiXBgJJJV6phKb25Sx4advCA0c8pNvKPRJZWvgmeDaTdnC9ocM04WnVgZy8hztyBLRmO9g2/ReeYiiWklosNdTF4novTe0WEY0uw9KQKjGljTMNfTDnBgJ1DgHmecDy5PEYymKIYBBNOnmMfMHve8nn8WnL2XR6biTS67Hn5xq+1wyh2dxfx0nfCfED+k6GTtNvUdVucQx7axaGNzuYC5xAkZSJeyf1GARG7Y3XH47DGmRexG3MG7TzIseoLTuup4FxEOY2AGkWcAABmG9ueq9TBLb2N8M8b1cPH/6xVtCUatGp8DJ5zOYDXQGZ5Ke1Rkt8MCx+IC+/IdFDVpsZVJYbVGy1o1bcZ2220cJ5kbKKs/KzwG4JBmRvLrCw53/0uTLFxnqzfHJTipfDErUyZAc2N3EESfRLUa2A0OLieguBsLQElOpmBbBP90C2wv8AKN7lNrtcxli2I0uSdzJiJ9VGz6s01G0BkJL9Ztp+wUZxmcw2w3Nva+ir926BLQ6b9efMSo++IIaW7i0g29Sik232LolqZpPhP/ylUenzD2Qiwo713UjyRnA+YLOD7T9pSZ4H/S6P3MTSZWb+pBqTaVnMhK+p1jrP5CTavgdM0Gu6ozyQNbjU9YVJrs2hMBTYjPTY1zWZmuEvcYAY3Nl9yY2NnExZYZJuK47NccNnRqNrtpkMYQ9wDiQNMzSGuJI0+LLfbN1WRxTjDHMfiHMzAVGhrw+8XblbsQQGmBEEyVIziTXuFBjAQAZvALZzNcIMFkyDOv0RjcD3jWse4uafE1jcrRGXwwG3A1dJ0JEdeTf3Wz0NKVIrVqk5JIa19Nr2TI+NgeInU3A21UHGauQMZSDqhjwht8wAvEWHn19VLx0Mo0GNeWd4MxaIsB4QAJG2SJ21too+yGEqYh7gA6m9jQH1jcZM0wGmDmI1Exb0OeTDFtZH19f9GnftZLgOHBwc6o1xh8AlwYNBMZJOsXM6qlxHAupEvZQcQQZ8Yc6Oe5IgA2XquEwtCk2GtbabuymN7bBR1cdQbIbkmIJloidI/wBBWsl8pWFcUzxehinVHNaZykjLDoIMRMjUeasYnhFcgZHOe06uJECNMx5/4Xf1+0dNry12WwsBlMmSIuZ9eqfj6vf0c9NjA2DmzkRAOhFx1meSp5XHmqHHGnw2cTw3sw+QXvHkDm/0tylwIwWsBc82EtBDG62BERNzKp0cJ3bSabXuDoksyvDT0gZv+1mZK2aHVajWToC8QPKRsmpPI+wcVBHecLwdak3+s8mIADDlkdbC45adVpvxAHw03P5nMCY63uuCZhWNLYe5xOmefKNY33/dadTC16YBoteQJzD4gCDJBDpvy5LCcfyaxaSNttZjnS5ha4i4PiI2vdKzAsc/NTe3M3zdExOjvCD5LKwuOrvIh+Z2mV7Gi4M5JkFpjlyW43HsAh4ymLth7vq0GVLtcFqmhr+MMpl0tflYx7y+GFsMBLgBnzE7WbckLBx2LGJxuGEsGVoLASDmeWd5IbM5ZESYHhVjHPpPM3aY+IHKSD/aR5WPRZFHC1BXbVpVaTXtGpD3l7TIjM4kNMbAD7nWKi11TM9Zxf2mdNVxdSi7xtyMGmQeEk8w248oMpuK4tkGYiRyaQSesTH1WeePYnRwputq1sgj3VTEcQoucO8phroN2jbeCBmbr+6lQfyv4HdLgvvqGvByeEFjmnM3MS1wdFpDfU7aLge0+Cdhq1Sm7LkL3OYbE3DTsZDcrh7dF1vD61FujjYaNdIt+oTquR7RYdrqjSwM8LGscc75flEB7g/RxETDjJBO66MPDMc1tGUcUHtDKmzModtLfgcfIeE9PIKnha5puglzRMPjUR/hWKuGytBNifhvsNSSPSPXkocZXNUtLsoLWhpIESBoSBqfLYBdkX8o4ZRvhnY8Do0mODxLnfqJlwkRLTtIkW2stl+Hp1iRUawi4kM8bOpdObrOkcwuO4PXZTygveSNRlGnIX/eVcFZxqGq15ZYguYA0kCwzHSYAF+S09Q4TinHhow9LDLim1N3F9X9nTs4Hh6bXBuY5omDcxMCLn8KyuIcJY0ANe4AAxmcCSfmA8IHoVSwHGCWDO8B27XMEEjQ5gJ9QtDC93UaO+fTzE5nuAqZXESQ0NmNLZhBtPRebrOMnJvg9FxjJe1GQ3hzqsMpgki4GYAls3iYUdfhdZhOejAOhEEjr4ZsuupYHBMGem7ISNjmA8iSQT+Qs7H5aksbWZNyAbHoWk2my0U10iPCq5OKr1C1xF7f2oXS5Kv/AOtX3b/lCvdEeFlo1B6R1Q6odhtrb7qoXydf8egSl/X3J/AtbOai0cxiSGj6lOptB5kAxqfyFVe8xt5nRK53MnysI5SlbrsKNLBvzvDALFwEc5PT2COKcWFeuGU2w1kMIJdlbk3bGwAsTryU/ZxuZ7nyRkAAABJl5ySAL+Fpcedh6Z3aHFOqVopMa2CWFxAL5F3c5kBrrdVy5emjs9NGuSajw5rC4sAdplDyYY0G9QiYJzZzyHvNhuLFIhrHPqPcQ57iCPDMF7pNmzIa0fFETAMx8MxDWBjBTzueQXvDy7I3KIkONpcCA2dj1nN4txBjA/uwBnfaCJN3AumLkRl5XIAGUKMcXI6JSUTQxzWVK2fIwv8ACAXQQA0k2cJve7unKc2lhsUyhdj2kyTmB13Nj5bDpK5XDYo1GBjcxdcuiAANg5xGmptJv0CtNqZbFxe4QcrWsaB0cYJd52WvjtV8Ihz5s6ejx6pUOXLlbYDVpM6TBmDrCuVcO6o3L3TWlxu4N0BsToJ03mYXL08Ji3OzucGgaNzFxDRoHCCPqtrA4us0y4ZtIEtbHqG+WyNGuidy47sxhmsDSXWIJkAgnewAhXnuYxjmUWEjLbI1r4jQHKASfK6jpYljb1Gue6QRnJeNpjOLcgPVbDMU6ozUCCNGugDfUjUdIWTTS93Jads88ZwLFs8TQ6TLiCQ0+UE630K0KFPFPIp1GOcJvnZAHXMuuxj2/E4n0+5ChpYpkiHi+oJG3X391lKcn8I2UaRFwfhwZm7xjC0xFgdNyCOnNWnYqm4w1sROkCVF/GgSfEReLaeyqYOv3k5ntNyMpplhEbk53TPQBcyUpW2ymqNCo9hgwJ2NpGuhK5HiYZTfkpvdnIzQ8uIMnQkmWm1tui0uKcTZTY6A0ltgMzCAdp3HqFxvDeINzl1XM5zz8XxTF9b2XRgxS5l/giWTVpIu1arjZxhxuZkiZ0BVV9IfM8QD4uutgDG37o4ti2OeA0gC4JgxB0G97axuqTKjMkl+ZxnfxTyubCI8XM+i7Iw4siWW+CzSxTmQQYA0F55W9yLR+6RuO/tdlNzaAJ2PM6LOosqVH5QcrS4ND9ADrGY7gFdFw3gD6ciA4EjcB2msAxfSAd0SSj2RGTfCKJHeajXe0zE/F5zE7alVv6jSWscTBiHQ4X5TouhexlKxEE2AMjfcnRQ4uoMIyarGkl+UDKXE5hIh0W0Nuh30iMrdJFySSMFmdzSC3M8Ws5sFlpiTOsaBV6tHxZajSI2ezqd2QT7rqsM5tVglmZ4bJIc0ER8ptOsj/pWjwyWQ5jNJLnR4J/4jpvvqq3S+CNbOHfgmGO7PpYR0jNNlXrYJ7buaW7SBBtrpY2XpWC4M2sQXMZkiJawgmxDvFMHYyOS06PZfDU75Xki4b3j2jls78lJ+qjHiTJeFy6PGzTc3Q5htFyPYz7SrmFxDg3R0D4oYYHObfuvZ8Nw2kGnwNEmXAhzhJ3lxMW1KgHCsO3MRRa68TlBm1wBNtE/6mMlaQlilF9nlDaLDYNvqAWs5a/D+4Vbv+78Ia2N5a2/nOnoV6BxXgeHyRSwwaS75nxrswNMR0A2VE8FqAH+nTybAOMjlaCAL3MD9keSLHqzkm49m7fYvj0uhaD+F058Re08u8omOXxX05oVe37F7vorNf+kXOs8kmeSZgjkLSUiFsjiHNqReND7eylpSZsBfzk9SUIUyBG1wjEhtGqSTJLQCNjD45bx++yzsXmZcm3h8RAJAMkZb2JBmYt5mAIXM1cnZ34+IIoY3i7nDu4EABgGkAWgkDxEmZP7jWrWDHVcoktBDANIynLA89f8AkUIXQkkuDN8vk6OvhhTbkALdLyHWvH0H0Wlw3B0w4eBhDBPiB9XHLqdtz15CFim6NmlRv4filD4QJmwhpaLcyTP0RjcXTaCBDTvAd06XQhEvb0RHl8mP/NAHS2TE3MAH0UzOMvO+Uchv6+qELmnNvs6IxS6G8QxRexsOPxGRJE2tPsVXwrabrkGZHlYTJQhZJvUv5NE1WiGtNgLWj83Wfjab2ua9rvEXOkiWmbRcHz22QhLG3bCXRUxocC41WMcTYlwBLfIjn9gg8LFNjmvGQnRpyvZ4tIA0KELqUnSMpJWzmsVgnOBLQ0hsh42uTcAlPrYdjGuIa8wWtIJa0iejZBuD82iELrTdHNJIm4LRg3vJDmSbX3jY7Lo8Pji2GkktG2wi0RuEIWWT9Rpj/STt4ixzyytTBmBI0IOkg+9ohZnEeHtqDIHuazVo+IN6tm7TpzQhZrh8FdlfvBROQixEgj9XMcpjTT7WMFxSn8dZ7y2mDk+KB/dFySADE8ykQmP4NThnGnVAH0wWtJBbOpbe9nWNp/yupbjQ6baAHlqJshC5c8EawIxxIHMAHNbEO0Mz6/ZVMPihUJDDkI1ESXD5SXmeW4JSoSi6QSSJxiC1x/pkAbgsIjkRY7wjDUg8ExlDBlAmerWuEbWuCUqFr8GUuzJ/lOaHMw9ItcA4EhgMOGa/uhCFe5lR/9k=" alt="grid" />
+          </div>
+          <div class="display__card">
+            <i class="ri-earth-line"></i>
+            <h4>Passionate Travel</h4>
+            <p>Fuel your passion for adventure and discover new horizons</p>
+          </div>
+          <div class="display__card">
+            <img src="https://lh5.googleusercontent.com/p/AF1QipM8wXLuQfBmHfvb-e12EfEZADUlKzqAN7aPnCUJ=w675-h390-n-k-no" alt="grid" />
+          </div>
+          <div class="display__card">
+            <img src="https://i0.wp.com/www.thesavvyglobetrotter.com/wp-content/uploads/2020/05/Armchair-virtual-travel-from-home.jpg?resize=640%2C427&ssl=1" alt="grid" />
+          </div>
+          <div class="display__card">
+            <i class="ri-road-map-line"></i>
+            <h4>Beautiful Places</h4>
+            <p>Uncover the world's most breathtakingly beautiful places</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="section__container" id="contact">
+        <h4>Travel.co</h4>
+        <div class="social__icons">
+          <span><i class="ri-facebook-fill"></i></span>
+          <span><i class="ri-twitter-fill"></i></span>
+          <span><i class="ri-instagram-line"></i></span>
+          <span><i class="ri-linkedin-fill"></i></span>
+        </div>
+        <p>
+          Travel makes one modest. You see what a tiny place you occupy in the
+          world.
+        </p>
+      </div>
+    </footer>
+  </body>
 </html>
